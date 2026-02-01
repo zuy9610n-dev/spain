@@ -13,13 +13,13 @@
   {
 		"name": "Polder",
 		"terrainsCanBeBuiltOn": ["Coast", "Lakes", "Oasis", "Marsh", "Flood plains"],
-		"food": 3,
+		"food": 2,
 		"turnsToBuild": 7,
 		"techRequired": "Guilds",
 		"uniques": [
       "[+1 Production, +2 Gold] <after discovering [Economics]>",
       "Cannot be built on [Bonus resource] tiles", 
       "Cannot be built on [Luxury resource] tiles",
-      "Cannot be built on [Water] tiles <with [6] to [6] neighboring [Water] tiles>"]
+      "Cannot be built on [Water] tiles <with [3] to [6] neighboring [Water] tiles>"]
 	}
 ]
