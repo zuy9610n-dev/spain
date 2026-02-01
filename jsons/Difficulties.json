@@ -194,9 +194,9 @@
 		"aiBuildingMaintenanceModifier": 0.50,
 		"aiUnitMaintenanceModifier": 0.50,
 		"aiUnitSupplyModifier": 0.50,
-		"aiFreeTechs": ["Pottery", "Animal Husbandry" ,"Mining", "The Wheel", "Trapping", "Archery"],
+		"aiFreeTechs": ["Pottery", "Animal Husbandry" ,"Mining", "The Wheel", "Archery"],
 		"aiMajorCivBonusStartingUnits": [
-			"Settler", "Worker", "Worker","Scout", "Era Starting Unit","Era Starting Unit"
+			"Settler", "Worker","Scout", "Era Starting Unit","Era Starting Unit"
 		],
 		"aiCityStateBonusStartingUnits": ["Worker"],
 		"aiUnhappinessModifier": 0.6,
