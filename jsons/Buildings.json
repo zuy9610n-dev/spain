@@ -18,15 +18,15 @@
     "uniques": [
       "Unbuildable <for [AI player]>",
 	  "Obsoleted by [Civil Service]", // 例：公共サービス（中世技術）で廃止
-      "[+15] Movement <for [Settler] units> <before [Medieval era]>",
-      "[+15] Movement <for [Worker] units> <before [Medieval era]>",
+      "[+5] Movement <for [Settler] units> <before [Medieval era]>",
+      "[+5] Movement <for [Worker] units> <before [Medieval era]>",
     ],
     },
     {
 		"name": "neg20percent happiness",
 		"cost": 0,
 		"isNationalWonder": true,
-		"uniques": ["[-20]% Unhappiness from [Population] [in all cities]"] 
+		"uniques": ["[-15]% Unhappiness from [Population] [in all cities]"] 
     }
 
     //Wonder
