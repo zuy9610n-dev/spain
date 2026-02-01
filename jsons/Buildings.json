@@ -45,6 +45,18 @@
         ],
         "requiredTech": "Industrialization"
     },
+	{
+        "name": "Center of Progress",
+        "cost": 0,
+        "uniques": [
+            "Can be purchased with [Gold] [in all cities]",
+            "Only available <if [Factory] is constructed in all [non-[Puppeted]] cities>",
+            "Adopt [Ideology]",
+            "Automatically built in all cities where it is buildable",
+            "Only available <in [Capital] cities>"
+        ],
+        "requiredTech": "Industrialization"
+    },
 
     //Wonder
 
