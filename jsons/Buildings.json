@@ -27,7 +27,24 @@
 		"cost": 0,
 		"isNationalWonder": true,
 		"uniques": ["[-15]% Unhappiness from [Population] [in all cities]"] 
-    }
+    },
+	{
+        "name": "Factory",
+        "cost": 360,
+        "production": 4,
+        "percentStatBonus": {"production": 10},
+        "specialistSlots": {"Engineer": 2},
+        "requiredBuilding": "Workshop",
+        "maintenance": 3,
+        "hurryCostModifier": 0,
+        "requiredResource": "Coal",
+        "uniques": [
+            "Provides [1] [Factories]",
+            "Adopt [Ideology] <when above [2] [Factories]>",
+            "[+2 Gold] from [Rubber] tiles [in this city]"
+        ],
+        "requiredTech": "Industrialization"
+    },
 
     //Wonder
 
