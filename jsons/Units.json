@@ -1,17 +1,59 @@
 [
-	{
-		"name": "Phasers",
-		"unitType": "Ranged",
-		"uniqueTo": "Aliens",
-		"replaces": "Machine Gun",
-		"movement": 2,
-		"strength": 90,
-		"rangedStrength": 36,
-		"range": 2,
-		"cost": 500,
-		"requiredTech": "Ballistics",
-		"requiredResource": "Uranium",
-		"promotions": ["Logistics","Accuracy I"],
-		"attackSound": "phasers"
-	}
+  {
+        "name": "Settler",
+        "unitType": "Civilian",
+        "movement": 2,
+        "cost": 106,
+        "uniques": [
+            "Founds a new city <by consuming this unit>",
+            "All tiles cost 1 movement <if [Palace] is not constructed>",
+            "[2] Movement <if [Palace] is not constructed>",
+            "Excess Food converted to Production when under construction",
+            "Requires at least [2] population",
+            "Cost increases by [20] when built"
+        ],
+        "hurryCostModifier": 20
+  },
+  {
+        "name": "Pioneer",
+        "unitType": "Scout",
+        "uniqueTo": "America",
+        "replaces": "Settler",
+        "movement": 2,
+        "cost": 75,
+		"strength": 3,
+        "uniques": [
+            "Founds a new city <by consuming this unit>",
+            "All tiles cost 1 movement <if [Palace] is not constructed>",
+            "[2] Movement <if [Palace] is not constructed>",
+            "Excess Food converted to Production when under construction",
+            "Requires at least [2] population",
+            "Cost increases by [20] when built",
+			"Capturable",
+			"[+100]% Strength <starting from the [Classical era]> <hidden from users>",
+			"[+50]% Strength <starting from the [Medieval era]> <hidden from users>",
+			"[+50]% Strength <starting from the [Renaissance era]> <hidden from users>",
+			"[+30]% Strength <starting from the [Industrial era]> <hidden from users>",
+			"[+30]% Strength <starting from the [Modern era]> <hidden from users>"
+        ],
+        "hurryCostModifier": 15
+    },
+  {
+    "name": "Perfect Settler",
+    "unitType": "Civilian",
+    "uniqueTo": "Spain",
+    "replaces": "Settler",
+    "movement": 2,
+    "cost": 106,
+    "uniques": [
+      "Founds a new city",
+      "Excess Food converted to Production when under construction",
+      "Cost increases by [20] when built",
+      "Requires at least [2] population",
+      "[+3] Sight <before the [Classical era]>",
+      "[+3] Movement <before the [Classical era]>",
+      "Can see over obstacles <before the [Classical era]>"
+    ],
+    "hurryCostModifier": 20,
+  },
 ]

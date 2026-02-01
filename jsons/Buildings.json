@@ -1,0 +1,408 @@
+[
+   {
+        "name": "Encomienda",
+        "replaces": "Courthouse",
+        "uniqueTo": "Spain",
+        "gold": 1,
+        "hurryCostModifier": 25,
+        "uniques": [
+            "Removes extra unhappiness from annexed cities",
+            "[+10]% [Gold]",
+        ],
+        "requiredTech": "Mathematics"
+    },
+    {
+    "name": "MoreNavalUnitMovement",
+    "cost": 0,
+	"isNationalWonder": true,
+    "uniques": [
+      "Unbuildable <for [AI player]>",
+	  "Obsoleted by [Civil Service]", // 例：公共サービス（中世技術）で廃止
+      "[+15] Movement <for [Settler] units> <before [Medieval era]>",
+      "[+15] Movement <for [Worker] units> <before [Medieval era]>",
+    ],
+    },
+    {
+		"name": "neg20percent happiness",
+		"cost": 0,
+		"isNationalWonder": true,
+		"uniques": ["[-20]% Unhappiness from [Population] [in all cities]"] 
+    }
+
+    //Wonder
+
+    {
+        "name": "Temple of Artemis",
+        "culture": 1,
+        "isWonder": true,
+        "greatPersonPoints": {
+            "Great Engineer": 1
+        },
+        "uniques": [
+            "[+10]% [Food] [in all cities]",
+            "[+15]% Production when constructing [Archery] units [in this city]",
+            "[+15]% Production when constructing [Ranged Gunpowder] units [in this city]"
+        ],
+        "requiredTech": "Archery",
+        "quote": "'It is not so much for its beauty that the forest makes a claim upon men's hearts, as for that subtle something, that quality of air, that emanation from old trees, that so wonderfully changes and renews a weary spirit.' - Robert Louis Stevenson"
+    },
+    {
+        "name": "Stonehenge",
+        "faith": 2,
+        "isWonder": true,
+        "greatPersonPoints": {
+            "Great Engineer": 1
+        },
+        "uniques": [
+            "Gain a free [Pantheon] belief",
+            "[-25]% Culture cost of natural border growth [in all cities]",
+            "[-25]% Gold cost of acquiring tiles [in all cities]"
+        ],
+        "requiredTech": "Calendar",
+        "quote": "'Time crumbles things; everything grows old and is forgotten under the power of time' - Aristotle"
+    },
+    {
+        "name": "Mausoleum of Halicarnassus",
+        "culture": 1,
+        "gold": 3,
+        "greatPersonPoints": {
+            "Great Merchant": 1
+        },
+        "isWonder": true,
+        "uniques": [
+            "[-33]% Gold cost of upgrading <for [Military] units>",
+            "[+2 Gold] from [Marble] tiles [in all cities]",
+            "[+2 Gold] from [Stone] tiles [in all cities]"
+        ],
+        "requiredTech": "Masonry",
+        "quote": "'The whole earth is the tomb of heroic men and their story is not given only on stone over their clay but abides everywhere without visible symbol woven into the stuff of other men's lives.' - Pericles"
+    },
+    {
+        "name": "Dome Of The Rock",
+        "culture": 1,
+        "specialistSlots": {
+            "Artist": 2
+        },
+        "greatPersonPoints": {
+            "Great Artist": 2
+        },
+        "isWonder": true,
+        "uniques": [
+            "Must have an owned [Desert] within [2] tiles",
+            "[+1 Faith, +1 Culture] from [Desert] tiles [in this city]",
+            "Gain a free [Amphitheater] [in this city]"
+        ],
+        "requiredTech": "Currency"
+    },
+    {
+        "name": "Althing",
+        "culture": 3,
+        "isWonder": true,
+        "greatPersonPoints": {
+            "Great Artist": 2
+        },
+        "uniques": [
+            "Must be next to [Tundra]",
+            "[+1 Culture, +1 Production] from [Tundra] tiles [in this city]"
+        ],
+        "requiredTech": "Metal Casting"
+    },
+    {
+        "name": "Ellora Caves",
+        "faith": 2,
+        "isWonder": true,
+        "greatPersonPoints": {
+            "Great Engineer": 2
+        },
+        "uniques": [
+            "Gain a free [Follower] belief <for [non-[Lithuania]] Civilizations>",
+            "[+2 Faith] [in all cities] <for [Lithuania] Civilizations>",
+            "Gain a free [Temple] [in this city]"
+        ],
+        "requiredTech": "Drama and Poetry",
+        "quote": "'As a devotee desires to worship any form of a god with faith, I make their faith firm and steady in that particular form' - Bhagavad Gita, 7:21"
+    },
+    {
+        "name": "Huey Teocalli",
+        "food": 2,
+        "culture": 2,
+        "isWonder": true,
+        "greatPersonPoints": {
+            "Great Engineer": 2
+        },
+        "uniques": [
+            "Must be next to [Lakes]",
+            "[+2 Culture, +2 Food] from [Lakes] tiles [in all cities]",
+            "[+2 Culture, +2 Food] from [Pink and White Terraces] tiles [in all cities] <hidden from users>"
+        ],
+        "requiredTech": "Civil Service"
+    },
+    {
+        "name": "Angkor Wat",
+        "science": 2,
+        "greatPersonPoints": {
+            "Great Scientist": 2
+        },
+        "isWonder": true,
+        "uniques": [
+            "[+1 Culture, +1 Production] from [Jungle] tiles [in all cities]"
+        ],
+        "requiredTech": "Theology",
+        "quote": "'The temple is like no other building in the world. It has towers and decoration and all the refinements which the human genius can conceive of.' - Antonio da Magdalena"
+    },
+    {
+        "name": "Forbidden Palace",
+        "happiness": 5,
+        "isWonder": true,
+        "greatPersonPoints": {
+            "Great Artist": 1
+        },
+        "uniques": [
+            "[+50]% Happiness from luxury resources gifted by City-States",
+            "[-10]% Unhappiness from [Population] [in all cities]",
+            "Only available <after adopting [Patronage]>"
+        ],
+        "requiredTech": "Banking",
+        "quote": "'Most of us can, as we choose, make of this world either a palace or a prison' - John Lubbock"
+    },
+    {
+        "name": "Himeji Castle",
+        "culture": 2,
+        "faith": 2,
+        "isWonder": true,
+        "greatPersonPoints": {
+            "Great Engineer": 2
+        },
+        "uniques": [
+            "Must be on [Hill]",
+            "May buy [Military] units with [Faith] [in this city]",
+            "[+10]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>",
+        ],
+        "requiredTech": "Gunpowder",
+        "quote": "'Bushido is realized in the presence of death. This means choosing death whenever there is a choice between life and death. There is no other reasoning.' - Yamamoto Tsunetomo"
+    },
+    {
+        "name": "Porcelain Tower",
+        "culture": 1,
+        "greatPersonPoints": {
+            "Great Scientist": 2
+        },
+        "isWonder": true,
+        "uniques": [
+            "Gain a free [Pagoda] [in this city]",
+            "[+2 Science, +2 Gold] from [Luxury resource] tiles [in this city]",
+            "Science gained from research agreements [+66]%",
+            "Only available <after adopting [Rationalism]>"
+        ],
+        "requiredTech": "Architecture",
+        "quote": "'Things always seem fairer when we look back at them, and it is out of that inaccessible tower' - James Russell Lowell"
+    },
+    {
+        "name": "Big Ben",
+        "culture": 1,
+        "gold": 4,
+        "greatPersonPoints": {
+            "Great Merchant": 2
+        },
+        "isWonder": true,
+        "uniques": [
+            "[Gold] cost of purchasing items in cities [-15]%",
+            "Only available <after adopting [Commerce]>"
+        ],
+        "requiredTech": "Industrialization",
+        "quote": "'To achieve great things, two things are needed: a plan, and not quite enough time.' - Leonard Bernstein"
+    },
+    {
+        "name": "Brandenburg Gate",
+        "culture": 3,
+        "greatPersonPoints": {
+            "Great Scientist": 2
+        },
+        "isWonder": true,
+        "uniques": [
+            "Free [Great General] appears",
+            "New [Military] units start with [20] XP [in all cities]"
+        ],
+        "requiredTech": "Military Science",
+        "quote": "'Pale Death beats equally at the poor man's gate and at the palaces of kings.' - Horace"
+    },
+    {
+        "name": "Eiffel Tower",
+        "culture": 1,
+        "happiness": 5,
+        "greatPersonPoints": {
+            "Great Merchant": 2
+        },
+        "isWonder": true,
+        "uniques": [
+            "[+1 Happiness] per [2] social policies adopted",
+            "Gain a free [Broadcast Tower] [in this city]"
+        ],
+        "requiredTech": "Radio",
+        "quote": "'We live only to discover beauty, all else is a form of waiting' - Kahlil Gibran"
+    },
+    {
+        "name": "Statue of Liberty",
+        "culture": 1,
+        "happiness": 6,
+        "isWonder": true,
+        "uniques": [
+            "[+6] population [in this city]",
+            "[+1 Production] from every specialist [in all cities]",
+            "Free Social Policy",
+            "Only available <after adopting [Freedom]>"
+        ],
+        "requiredTech": "Replaceable Parts",
+        "quote": "'Give me your tired, your poor, your huddled masses yearning to breathe free, the wretched refuse of your teeming shore. Send these, the homeless, tempest-tossed to me, I lift my lamp beside the golden door!' - Emma Lazarus"
+    },
+    {
+        "name": "Prora",
+        "happiness": 1,
+        "isWonder": true,
+        "uniques": [
+            "Free Social Policy",
+            "Only available <after adopting [Autocracy]>",
+            "[+1 Happiness] per [2] social policies adopted"
+        ],
+        "requiredTech": "Flight",
+        "quote": "'This loss (of freedom) means the fading from human life of values infinitely precious to it. There only remain ironbound conditions of employment and trivial amusements for leisure.' - A.N. Whitehead"
+    },
+    {
+        "name": "Kremlin",
+        "culture": 1,
+        "isWonder": true,
+        "uniques": [
+            "[+50]% Production when constructing [Armored] units [in all cities]",
+            "Free Social Policy",
+            "Only available <after adopting [Order]>"
+        ],
+        "requiredTech": "Railroads",
+        "quote": "'The Law is a fortress on a hill that armies cannot take or floods wash away.' - The Prophet Muhammed"
+    },
+    {
+        "name": "Neuschwanstein",
+        "happiness": 2,
+        "culture": 4,
+        "gold": 6,
+        "greatPersonPoints": {
+            "Great Merchant": 1
+        },
+        "isWonder": true,
+        "uniques": [
+            "[+1 Happiness, +2 Culture, +3 Gold] from every [Castle]",
+            "Must have an owned [{non-[Natural Wonder]} {Mountain}] within [2] tiles"
+        ],
+        "requiredTech": "Railroads",
+        "quote": "'...the location is one of the most beautiful to be found, holy and unapproachable, a worthy temple for the divine friend who has brought salvation and true blessing to the world.' - King Ludwig II of Bavaria"
+    },
+    {
+        "name": "Basílica de la Sagrada Família",
+        "culture": 1,
+        "faith": 1,
+        "happiness": 1,
+        "greatPersonPoints": {
+            "Great Engineer": 3
+        },
+        "isWonder": true,
+        "uniques": [
+            "[+2 Culture, +2 Faith] from all [Faith] buildings",
+            "[+4 Culture, +2 Happiness] [in this city] <starting from the [Atomic era]>",
+            "[+5 Culture, +3 Happiness] [in this city] <starting from the [Information era]>",
+            "[+6 Culture, +4 Happiness] [in this city] <while researching [Future Tech]>"
+        ],
+        "requiredTech": "Flight",
+        "quote": "'What must always be conserved is the spirit of the work, but its life has to depend on the generations it is handed down to and with whom it lives and is incarnated' - Antoni Gaudí"
+    },
+    {
+        "name": "Pentagon",
+        "isWonder": true,
+        "production": 2,
+        "science": 2,
+        "greatPersonPoints": {
+            "Great Scientist": 10
+        },
+        "uniques": [
+            "Gain [1500] [Gold] <upon expending a [Great Person] unit> <(modified by game speed)>",
+            "[-33]% Gold cost of upgrading <for [Military] units>"
+        ],
+        "requiredTech": "Combined Arms",
+        "quote": "'In preparing for battle I have always found that plans are useless, but planning is indispensable.' - Dwight D. Eisenhower"
+    },
+    {
+        "name": "CN Tower",
+        "isWonder": true,
+        "culture": 5,
+        "greatPersonPoints": {
+            "Great Merchant": 1
+        },
+        "uniques": [
+            "[+1] population [in all cities]",
+            "[+1 Happiness] [in all cities]",
+            "Gain a free [Broadcast Tower] [in all cities]"
+        ],
+        "requiredTech": "Plastics",
+        "quote": "'Nothing travels faster than light with the possible exception of bad news, which obeys its own special rules.' - Douglas Adams"
+    },
+    {
+        "name": "Cathedral",
+        "cost": 0,
+        "faith": 1,
+        "culture": 4,
+        "happiness": 1,
+        "specialistSlots": {
+            "Artist": 1
+        },
+        "uniques": [
+            "Unbuildable",
+            "Only available <when religion is enabled>"
+        ]
+    },
+    {
+        "name": "Monastery",
+        "cost": 0,
+        "culture": 2,
+        "faith": 2,
+        "uniques": [
+            "[+1 Culture, +1 Faith] from [Wine] tiles [in this city]",
+            "[+1 Culture, +1 Faith] from [Incense] tiles [in this city]",
+            "Unbuildable",
+            "Only available <when religion is enabled>",
+            "Destroyed when the city is captured"
+        ]
+    },
+    {
+        "name": "Mosque",
+        "cost": 0,
+        "culture": 2,
+        "faith": 3,
+        "happiness": 1,
+        "uniques": [
+            "Unbuildable",
+            "Only available <when religion is enabled>"
+        ]
+    },
+    {
+        "name": "Pagoda",
+        "cost": 0,
+        "culture": 2,
+        "faith": 2,
+        "happiness": 2,
+        "uniques": [
+            "Unbuildable",
+            "Only available <when religion is enabled>"
+        ]
+    },
+    {
+        "name": "Stupa",
+        "cost": 0,
+        "happiness": 1,
+        "faith": 2,
+        "culture": 1,
+        "science": 2,
+        "uniques": [
+            "Unbuildable",
+            "Only available <when religion is enabled>"
+        ]
+    }
+    
+]

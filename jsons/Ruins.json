@@ -1,0 +1,388 @@
+[ 
+//Gold 
+  {
+     "name":  "a tiny stash of gold",
+     "notification": "We have found a stash of [goldAmount] Gold in the ruins!", 
+      "weight": 8
+     "uniques": [
+                 "Gain [50]-[100] [Gold]"
+                ], 
+  },
+  {
+     "name":  "a small stash of gold",
+     "notification": "We have found a stash of [goldAmount] Gold in the ruins!", 
+      "weight": 7
+     "uniques": [
+                 "Gain [150]-[225] [Gold]"
+                ], 
+  },
+  {
+     "name":  "a stash of gold",
+     "notification": "We have found a stash of [goldAmount] Gold in the ruins!", 
+      "weight": 6
+     "uniques": [
+                 "Gain [300]-[500] [Gold]"
+                ], 
+  },
+  {
+     "name":  "a large stash of gold",
+     "notification": "We have found a stash of [goldAmount] Gold in the ruins!", 
+      "weight": 5
+     "uniques": [
+                 "Gain [600]-[900] [Gold]"
+                ], 
+  },
+  {
+     "name":  "a huge stash of gold",
+     "notification": "We have found a stash of [goldAmount] Gold in the ruins!", 
+      "weight": 4
+     "uniques": [
+                 "Gain [800]-[1200] [Gold]"
+                ], 
+  },
+//Culture 
+  { 
+     "name": "discover minimal cultural signs",
+     "notification": "We have discovered cultural signs in the ruins! (+[cultureAmount] Culture)",
+     "weight": 8
+     "uniques": [
+                 "Gain [30]-[50] [Culture]", 
+                 "Only available <before founding a Pantheon>"
+                 ], 
+  },
+  { 
+     "name": "discover some cultural signs",
+     "notification": "We have discovered cultural signs in the ruins! (+[cultureAmount] Culture)",
+     "weight": 7
+     "uniques": [
+                 "Gain [40]-[60] [Culture]", 
+                 "Only available <before founding a Pantheon>"
+                 ], 
+  },
+  { 
+     "name": "discover cultural signs",
+     "notification": "We have discovered cultural signs in the ruins! (+[cultureAmount] Culture)",
+     "weight": 6
+     "uniques": [
+                 "Gain [50]-[80] [Culture]", 
+                 "Only available <before founding a Pantheon>"
+                 ], 
+  },
+  { 
+     "name": "discover impressive cultural signs",
+     "notification": "We have discovered cultural signs in the ruins! (+[cultureAmount] Culture)",
+     "weight": 5
+     "uniques": [
+                 "Gain [60]-[90] [Culture]", 
+                 "Only available <before founding a Pantheon>"
+                 ], 
+  },
+  { 
+     "name": "discover significant cultural signs",
+     "notification": "We have discovered cultural signs in the ruins! (+[cultureAmount] Culture)",
+     "weight": 4
+     "uniques": [
+                 "Gain [70]-[110] [Culture]", 
+                 "Only available <before founding a Pantheon>"
+                 ], 
+  },
+  { 
+     "name": "discover minimal cultural artifacts",
+     "notification": "We have discovered cultural artifacts in the ruins! (+[cultureAmount] Culture)",
+     "weight": 7
+     "uniques": [
+                 "Gain [50]-[100] [Culture]", 
+                 "Only available <after founding a Pantheon>", 
+                 "Only available <after [30] turns>"
+                ], 
+  },
+  { 
+     "name": "discover minor cultural artifacts",
+     "notification": "We have discovered cultural artifacts in the ruins! (+[cultureAmount] Culture)",
+     "weight": 6
+     "uniques": [
+                 "Gain [100]-[200] [Culture]", 
+                 "Only available <after founding a Pantheon>", 
+                 "Only available <after [30] turns>"
+                ], 
+  },
+  { 
+     "name": "discover cultural artifacts",
+     "notification": "We have discovered cultural artifacts in the ruins! (+[cultureAmount] Culture)",
+     "weight": 5
+     "uniques": [
+                 "Gain [150]-[300] [Culture]", 
+                 "Only available <after founding a Pantheon>", 
+                 "Only available <after [30] turns>"
+                ], 
+  },
+  { 
+     "name": "discover significant cultural artifacts",
+     "notification": "We have discovered cultural artifacts in the ruins! (+[cultureAmount] Culture)",
+     "weight": 4
+     "uniques": [
+                 "Gain [200]-[400] [Culture]", 
+                 "Only available <after founding a Pantheon>", 
+                 "Only available <after [30] turns>"
+                ], 
+  },
+  { 
+     "name": "discover major cultural artifacts",
+     "notification": "We have discovered cultural artifacts in the ruins! (+[cultureAmount] Culture)",
+     "weight": 3
+     "uniques": [
+                 "Gain [250]-[500] [Culture]", 
+                 "Only available <after founding a Pantheon>", 
+                 "Only available <after [30] turns>"
+                ], 
+  },
+  {"name": "adopt foreign policy2",
+		"notification": "We have discovered a scripture of policy idea, we can now try adopting it!",
+		"weight": 2500
+	    "uniques": [
+                    "Free Social Policy",
+                    "This Unit gains [10] XP",
+			        "Gain [50]-[100] [Gold]",
+			        "Only available <before turn number [0]>"
+                   ], 
+  },
+  {"name": "adopt foreign policy1",
+		"notification": "We have discovered a scripture of policy idea, we can now try adopting it!",
+		"weight": 2500
+        "uniques": ["Free Social Policy",
+                    "This Unit gains [10] XP",
+			        "Gain [150]-[250] [Science]",
+			        "Only available <before turn number [0]>"
+		           ],
+  },
+//Faith
+  { 
+     "name": "discover few holy symbols", 
+     "notification": "We have found holy symbols in the ruins, giving us a deeper understanding of religion! (+[faithAmount] Faith)", 
+     "weight": 8
+     "uniques": [
+                 "Hidden when religion is disabled", 
+                 "Only available <before founding a Pantheon>", 
+                 "Gain [2]-[3] [Faith]"
+                 ],
+  }, 
+  { 
+     "name": "discover holy symbols", 
+     "notification": "We have found holy symbols in the ruins, giving us a deeper understanding of religion! (+[faithAmount] Faith)", 
+     "weight": 7
+     "uniques": [
+                 "Hidden when religion is disabled", 
+                 "Only available <before founding a Pantheon>", 
+                 "Gain [3]-[5] [Faith]"
+                 ],
+  }, 
+  { 
+     "name": "discover many holy symbols", 
+     "notification": "We have found holy symbols in the ruins, giving us a deeper understanding of religion! (+[faithAmount] Faith)", 
+     "weight": 6
+     "uniques": [
+                 "Hidden when religion is disabled", 
+                 "Only available <before founding a Pantheon>", 
+                 "Gain [5]-[8] [Faith]"
+                 ],
+  }, 
+  { 
+     "name": "discover piles of holy symbols", 
+     "notification": "We have found holy symbols in the ruins, giving us a deeper understanding of religion! (+[faithAmount] Faith)", 
+     "weight": 5
+     "uniques": [
+                 "Hidden when religion is disabled", 
+                 "Only available <before founding a Pantheon>", 
+                 "Gain enough Faith for a Pantheon", 
+                 ],
+  }, 
+  { 
+     "name": "an obscure ancient prophecy", 
+     "notification": "We have found an ancient prophecy in the ruins, greatly increasing our spiritual connection! (+[faithAmount] Faith)", 
+     "weight": 7
+     "uniques": [
+                 "Hidden when religion is disabled", 
+                 "Only available <after founding a Pantheon>", 
+                 "Only available <before founding a religion>",
+                 "Gain enough Faith for [25]% of a Great Prophet"
+                 ],
+  },
+  { 
+     "name": "an ancient prophecy", 
+     "notification": "We have found an ancient prophecy in the ruins, greatly increasing our spiritual connection! (+[faithAmount] Faith)", 
+     "weight": 6
+     "uniques": [
+                 "Hidden when religion is disabled", 
+                 "Only available <after founding a Pantheon>", 
+                 "Only available <before founding a religion>",
+                 "Gain enough Faith for [40]% of a Great Prophet"
+                 ],
+  },
+  { 
+     "name": "a clear ancient prophecy", 
+     "notification": "We have found an ancient prophecy in the ruins, greatly increasing our spiritual connection! (+[faithAmount] Faith)", 
+     "weight": 5
+     "uniques": [
+                 "Hidden when religion is disabled", 
+                 "Only available <after founding a religion>", 
+                 "Only available <before enhancing a religion>",
+                 "Gain enough Faith for [60]% of a Great Prophet"
+                 ],
+  },
+  { 
+     "name": "an unambiguous ancient prophecy", 
+     "notification": "We have found an ancient prophecy in the ruins, greatly increasing our spiritual connection! (+[faithAmount] Faith)", 
+     "weight": 4
+     "uniques": [
+                 "Hidden when religion is disabled", 
+                 "Only available <after founding a Pantheon>", 
+                 "Only available <before enhancing a religion>",
+                 "Gain enough Faith for [100]% of a Great Prophet", 
+                 ],
+  },
+//Science
+  { 
+     "name": "discover minor research", 
+     "notification": "We have discovered some research in the ruins! (+[scienceAmount] Science)", 
+     "weight": 8
+     "uniques": [
+                 "Gain [15]-[30] [Science]"
+                ]         
+  }, 
+  { 
+     "name": "discover simple research", 
+     "notification": "We have discovered some research in the ruins! (+[scienceAmount] Science)", 
+     "weight": 7
+     "uniques": [
+                 "Gain [20]-[35] [Science]"
+                ]         
+  }, 
+  { 
+     "name": "discover significant research", 
+     "notification": "We have discovered some research in the ruins! (+[scienceAmount] Science)", 
+     "weight": 6
+     "uniques": [
+                 "Gain [50]-[100] [Science]"
+                ]         
+  }, 
+  { 
+     "name": "discover major research", 
+     "notification": "We have discovered some research in the ruins! (+[scienceAmount] Science)", 
+     "weight": 5
+     "uniques": [
+                 "Gain [80]-[150] [Science]"
+                ]         
+  }, 
+  { 
+     "name": "discover groundbreaking research", 
+     "notification": "We have discovered some research in the ruins! (+[scienceAmount] Science)", 
+     "weight": 4
+     "uniques": [
+                 "Gain [110]-[200] [Science]"
+                ]         
+  }, 
+  { 
+     "name": "discover ancient technology", 
+     "notification": "We have discovered a technology from the Ancient Era in the ruins!", 
+     "weight": 7
+     "uniques": [
+                 "[1] free random researchable Tech(s) from the [Ancient era]"
+                ]         
+  }, 
+  { 
+     "name": "discover classical technology", 
+     "notification": "We have discovered a technology from the Classical Era in the ruins!", 
+     "weight": 6
+     "uniques": [
+                 "[1] free random researchable Tech(s) from the [Classical era]",
+//                 "Only available after [60] turns", //this is a stopgap 
+                 "Only available <starting from the [Classical era]>"
+                ]         
+  }, 
+  { 
+     "name": "discover medieval technology", 
+     "notification": "We have discovered a technology from the Medieval Era in the ruins!", 
+     "weight": 5
+     "uniques": [
+                 "[1] free random researchable Tech(s) from the [Medieval era]",
+//                 "Only available after [90] turns"//because "Only available" doesn't work 
+                 "Only available <starting from the [Medieval era]>"
+                ]         
+  }, 
+
+// Maps
+  { 
+     "name": "find a crudely-drawn map", 
+//     "notification": "We have found a crudely drawn map in the ruins!", 
+     "weight": 0 // was 8
+//     "uniques": ["From a randomly chosen tile [3] tiles away from the ruins, reveal tiles up to [4] tiles away with [80]% chance"] 
+     "excludedDifficulties": ["Settler","Chieftain","Warlord","Prince","King","Emperor","Immortal","Deity"]
+  } //This is now DELETED 
+/*  { 
+     "name": "find a bigger map", 
+     "notification": "We have found a simple map in the ruins!", 
+     "weight": 7
+     "uniques": ["From a randomly chosen tile [4] tiles away from the ruins, reveal tiles up to [5] tiles away with [90]% chance"] 
+  }, 
+  { 
+     "name": "find a even bigger map", 
+     "notification": "We have found a damaged wall relief of a map in the ruins!", 
+     "weight": 6
+     "uniques": ["From a randomly chosen tile [5] tiles away from the ruins, reveal tiles up to [6] tiles away with [80]% chance"] 
+  }, 
+  { 
+     "name": "find a better map", 
+     "notification": "We have found an old map in the ruins!", 
+     "weight": 5
+     "uniques": ["From a randomly chosen tile [4] tiles away from the ruins, reveal tiles up to [5] tiles away with [100]% chance"] 
+  }, 
+  { 
+     "name": "find a the best map", 
+     "notification": "We have found a old area map in the ruins!", 
+     "weight": 4
+     "uniques": ["From a randomly chosen tile [6] tiles away from the ruins, reveal tiles up to [6] tiles away with [100]% chance"] 
+  }, */
+//Maps are being left out for now because they're kinda pants and you can't cheese ruins with saves as much anymore 
+//Don't want to delete this but I make it less common 
+  { 
+     "name": "advanced weaponry for your explorer", 
+     "notification": "Our unit finds advanced weaponry hidden in the ruins!", 
+     "weight": 5
+     "uniques": [
+                "This Unit upgrades for free including special upgrades", 
+                "This Unit gains [15] XP"
+                ] 
+     //"excludedDifficulties": ["Settler","Chieftain","Warlord","Prince","King","Emperor","Immortal","Deity"]
+  }
+//Deletions
+  {
+     "name": "squatters wishing to settle under your rule",
+     "weight": 0
+     "excludedDifficulties": ["Settler","Chieftain","Warlord","Prince","King","Emperor","Immortal","Deity"]
+  },
+  {
+     "name": "squatters willing to work for you",
+     "weight": 0
+     "excludedDifficulties": ["Settler","Chieftain","Warlord","Prince","King","Emperor","Immortal","Deity"]
+  },
+  {
+     "name": "reveal nearby Barbarian camps",
+     "weight": 0
+     "excludedDifficulties": ["Settler","Chieftain","Warlord","Prince","King","Emperor","Immortal","Deity"]
+  },
+  {
+     "name": "your exploring unit receives training camps",
+     "weight": 0
+     "excludedDifficulties": ["Settler","Chieftain","Warlord","Prince","King","Emperor","Immortal","Deity"]
+  },
+  {
+     "name": "survivors (adds population to a city)",
+     "weight": 0
+     "excludedDifficulties": ["Settler","Chieftain","Warlord","Prince","King","Emperor","Immortal","Deity"]
+  },
+  {
+     "name": "reveal nearby Barbarian camps",
+     "weight": 0
+     "excludedDifficulties": ["Settler","Chieftain","Warlord","Prince","King","Emperor","Immortal","Deity"]
+  }
+]
