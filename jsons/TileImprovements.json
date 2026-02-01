@@ -21,5 +21,141 @@
       "Cannot be built on [Bonus resource] tiles", 
       "Cannot be built on [Luxury resource] tiles",
       "Cannot be built on [Water] tiles <with [3] to [6] neighboring [Water] tiles>"]
-	}
+	},
+	{
+        "name": "Land Trade Route (Food)",
+        "food": 3,
+        "terrainsCanBeBuiltOn": ["Land","Forest","Jungle","Marsh","Oasis"],
+        "uniques": [
+            "All Trade Route",
+            "Provides [-1] [Trade Route]",
+            "[-3 Food] <in cities without a [Granary]>",
+            "[+1 Food] <starting from the [Classical era]>",
+            "[+1 Food] <starting from the [Industrial era]>",
+            "[+1 Food] <starting from the [Modern era]>",
+            "Pillaging this improvement yields approximately [+20 Gold]",
+            "Excluded from map editor"
+        ]
+    },
+    {
+        "name": "Land Trade Route (Production)",
+        "production": 3,
+        "terrainsCanBeBuiltOn": ["Land","Forest","Jungle","Marsh","Oasis"],
+        "uniques": [
+            "All Trade Route",
+            "Provides [-1] [Trade Route]",
+            "[-3 Production] <in cities without a [Workshop]>",
+            "[+1 Production] <starting from the [Classical era]>",
+            "[+1 Production] <starting from the [Industrial era]>",
+            "[+1 Production] <starting from the [Modern era]>",
+            "Pillaging this improvement yields approximately [+20 Gold]",
+            "Excluded from map editor"
+        ]
+    },
+    {
+        "name": "Land Trade Route (Gold)",
+        "terrainsCanBeBuiltOn": ["Land","Forest","Jungle","Marsh","Oasis"],
+        "gold": 6,
+        "uniques": [
+            "All Trade Route",
+            "Provides [-1] [Trade Route]",
+            "[+2 Gold] <starting from the [Classical era]>",
+            "[+2 Gold] <starting from the [Industrial era]>",
+            "[+2 Gold] <starting from the [Modern era]>",
+            "Pillaging this improvement yields approximately [+20 Gold]",
+            "Excluded from map editor"
+        ]
+    },
+    {
+        "name": "Sea Trade Route (Food)",
+        "food": 6,
+        "terrainsCanBeBuiltOn": ["Coast","Ocean","Atoll"],
+        "uniques": [
+            "All Trade Route",
+            "Provides [-1] [Trade Route]",
+            "[-6 Food] <in cities without a [Granary]>",
+            "[+2 Food] <starting from the [Classical era]>",
+            "[+2 Food] <starting from the [Industrial era]>",
+            "[+2 Food] <starting from the [Modern era]>",
+            "Pillaging this improvement yields approximately [+20 Gold]",
+            "Excluded from map editor"
+        ]
+    },
+    {
+        "name": "Sea Trade Route (Production)",
+        "production": 6,
+        "terrainsCanBeBuiltOn": ["Coast","Ocean","Atoll"],
+        "uniques": [
+            "All Trade Route",
+            "Provides [-1] [Trade Route]",
+            "[-6 Production] <in cities without a [Workshop]>",
+            "[+2 Production] <starting from the [Classical era]>",
+            "[+2 Production] <starting from the [Industrial era]>",
+            "[+2 Production] <starting from the [Modern era]>",
+            "Pillaging this improvement yields approximately [+20 Gold]",
+            "Excluded from map editor"
+        ]
+    },
+    {
+        "name": "Sea Trade Route (Gold)",
+        "terrainsCanBeBuiltOn": ["Coast","Ocean","Atoll"],
+        "gold": 12,
+        "uniques": [
+            "All Trade Route",
+            "Provides [-1] [Trade Route]",
+            "[+4 Gold] <starting from the [Classical era]>",
+            "[+4 Gold] <starting from the [Industrial era]>",
+            "[+4 Gold] <starting from the [Modern era]>",
+            "Pillaging this improvement yields approximately [+20 Gold]",
+            "Excluded from map editor"
+        ]
+    },
+	{
+        "name": "Remove Land Trade Route (Production)",
+        "terrainsCanBeBuiltOn": ["Land","Forest","Jungle","Marsh","Oasis"],
+        "uniques": [
+            "Excluded from map editor"
+        ],
+        "turnsToBuild": 0
+    },
+    {
+        "name": "Remove Land Trade Route (Food)",
+        "terrainsCanBeBuiltOn": ["Land","Forest","Jungle","Marsh","Oasis"],
+        "uniques": [
+            "Excluded from map editor"
+        ],
+        "turnsToBuild": 0
+    },
+    {
+        "name": "Remove Land Trade Route (Gold)",
+        "terrainsCanBeBuiltOn": ["Land","Forest","Jungle","Marsh","Oasis"],
+        "uniques": [
+            "Excluded from map editor"
+        ],
+        "turnsToBuild": 0
+    },
+    {
+        "name": "Remove Sea Trade Route (Production)",
+        "terrainsCanBeBuiltOn": ["Coast","Ocean","Atoll"],
+        "uniques": [
+            "Excluded from map editor"
+        ],
+        "turnsToBuild": 0
+    },
+    {
+        "name": "Remove Sea Trade Route (Food)",
+        "terrainsCanBeBuiltOn": ["Coast","Ocean","Atoll"],
+        "uniques": [
+            "Excluded from map editor"
+        ],
+        "turnsToBuild": 0
+    },
+    {
+        "name": "Remove Sea Trade Route (Gold)",
+        "terrainsCanBeBuiltOn": ["Coast","Ocean","Atoll"],
+        "uniques": [
+            "Excluded from map editor"
+        ],
+        "turnsToBuild": 0
+    }
 ]
