@@ -1406,6 +1406,7 @@
             "Comment [Choose an [Ideology] upon reaching the [Modern era], or owning 3 [Factory] buildings]",
 			"Triggers a [Ideology] event <for [Human player] Civilizations> <hidden from users>",
             "Triggers a [Ideology] event <for [AI player] Civilizations> <hidden from users>",
+			"Free Social Policy"
         ],
         "policies": [
             {
