@@ -742,11 +742,12 @@
     },
 {
         "name": "Order",
-        "era": "Industrial era",
+        "era": "Ancient era",
         "uniques": [
             "Comment [Unlocks [Kremlin]]",
             "Only available <before adopting [Autocracy]>",
-            "Only available <before adopting [Freedom]>"
+            "Only available <before adopting [Freedom]>",
+			"Only available <after adopting [Ideology]>"
         ],
         "policies": [
             {
@@ -959,11 +960,12 @@
     },
     {
         "name": "Freedom",
-        "era": "Industrial era",
+        "era": "Ancient era",
         "uniques": [
             "Comment [Unlocks [Statue of Liberty]]",
             "Only available <before adopting [Autocracy]>",
-            "Only available <before adopting [Order]>"
+            "Only available <before adopting [Order]>",
+			"Only available <after adopting [Ideology]>"
         ],
         "policies": [
             {
@@ -1182,11 +1184,12 @@
     },
     {
         "name": "Autocracy",
-        "era": "Industrial era",
+        "era": "Ancient era",
         "uniques": [
             "Comment [Unlocks [Prora]]",
             "Only available <before adopting [Order]>",
-            "Only available <before adopting [Freedom]>"
+            "Only available <before adopting [Freedom]>",
+			"Only available <after adopting [Ideology]>"
         ],
         "policies": [
             {
@@ -1393,8 +1396,27 @@
                 "name": "Autocracy Complete",
                 "uniques": [
                 ]
+            },
+    {
+        "name": "Ideology",
+        "era": "Modern era",
+        "uniques": [
+            "Comment [Choose an [Ideology] upon reaching the [Modern era], or owning 3 [Factory] buildings]",
+			// Humans are given an event to choose their Ideology.
+            // AI will instead choose via the free policy once it's implemented correctly (sorry, I'm being lazy about adding it)
+
+			"Triggers a [Ideology] event <for [Human player] Civilizations> <hidden from users>",
+            "Triggers a [Ideology] event <for [AI player] Civilizations> <hidden from users>",
+			//"Free Social Policy <for [AI player] Civilizations> <hidden from users>",
+            "Unavailable"
+        ],
+        "policies": [
+            {
+                "name": "Ideology Complete",
+                "uniques": [
+                    "Comment [Report as error if you adopt this]"
+                ]
             }
         ]
-    }
-        
+    }   
 ]
