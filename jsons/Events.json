@@ -35,83 +35,6 @@
             }
         ]
     },
-    // Archaeology
-    /*{
-        // Waiting to implement artifacts
-        "name": "Archaeological Dig",
-        "text": "Your Archaeological Dig has uncovered an Ancient Artifact",
-        "presentation": "Alert",
-        "choices": [
-            {
-                "text": "Dig up the Artifact",
-                "uniques": [
-                    "Instantly provides [1] [Artifact]"
-                ]
-            }
-        ]
-    },*/
-    {
-        "name": "Archaeological Dig",
-        "text": "Your Archaeological Dig has uncovered an Ancient Artifact",
-        "presentation": "Alert",
-        "choices": [
-            {
-                "text": "Dig up the Artifact",
-                "uniques": [
-                    "Instantly provides [1] [Great Work of Art]",
-                    "Remove [Archaeological Dig] improvements from this tile",
-					"Remove [Antiquity Site] resources from this tile",
-                    "[This Unit] is destroyed"
-                ]
-            },
-			{
-                "text": "Convert into a permanent dig site",
-                "uniques": [
-					"Remove [Antiquity Site] resources from this tile",
-                    "[This Unit] is destroyed"
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Archaeological Dig - Hidden - Great Work of Writing",
-        "text": "Your Archaeological Dig has uncovered a Great Work of Writing",
-        "presentation": "None",
-        "choices": [
-            {
-                "text": "Dig up the Great Work",
-                "uniques": [
-                    "Instantly provides [1] [Great Work of Writing]"
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Archaeological Dig - Hidden - Culture",
-        "text": "Your Archaeological Dig has sparked a Cultural Renaissance",
-        "presentation": "None",
-        "choices": [
-            {
-                "text": "Begin the Renaissance",
-                "uniques": [
-                    "Free Social Policy"
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Archaeological Dig - Destroy Unit",
-        "text": "[This Unit] is destroyed",
-        "presentation": "None",
-        "choices": [
-            {
-                "text": "[This Unit] is destroyed",
-                "uniques": [
-                    "[This Unit] is destroyed"
-                ]
-            }
-        ]
-    },
     // Ideology
     {
         "name": "Ideology",
@@ -897,3 +820,4 @@
 		]
 	}*/
 ]
+
