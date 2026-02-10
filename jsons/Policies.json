@@ -295,7 +295,7 @@
             {
                 "name": "Theocracy",
                 "uniques": [
-                    "[+15]% [Gold] from every [Temple]",
+                    "[+10]% [Gold] from every [Temple]",
                     "[+3 Gold] from every [Holy site]",
                     "[+33]% [Gold] from every [Grand Temple]"
                 ],
@@ -307,7 +307,6 @@
                 "name": "Free Religion",
                 "uniques": [
                     "Gain a free [Pantheon] belief", "(if you founded a religion)",
-				    "May choose [1] additional [Pantheon] beliefs when [founding] a religion",
                     "[+33]% [Science] from every [Grand Temple]",
 					"May choose [1] additional belief(s) of any type when [founding] a religion",
                 ],
@@ -320,9 +319,8 @@
                 "uniques": [
 		                "[-15]% Culture cost of adopting new Policies",
 					    "[-10]% Culture cost of natural border growth [in all cities]",
-                    "May choose [1] additional [Enhancer] beliefs when [founding] a religion",
-                    "Gain a free [Enhancer] belief <after founding a religion>"
-                ],
+					    "May choose [1] additional [Enhancer] beliefs when [founding] a religion",
+                        ],
                 "requires": ["Free Religion"],
                 "row": 3,
                 "column": 4
