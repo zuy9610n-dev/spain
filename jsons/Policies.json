@@ -306,7 +306,6 @@
             {
                 "name": "Free Religion",
                 "uniques": [
-                    "Gain a free [Pantheon] belief", "(if you founded a religion)",
                     "[+33]% [Science] from every [Grand Temple]",
 					"May choose [1] additional belief(s) of any type when [founding] a religion",
                 ],
