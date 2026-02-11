@@ -41,8 +41,7 @@
             "[Perfect Settler] units gain the [Ignore terrain cost] promotion <hidden from users>",
             "[Worker] units gain the [Ignore terrain cost] promotion <hidden from users>",
             "[+50]% XP gained from combat <for [Military] units>",
-            "Free Social Policy <upon entering a new era> <after turn number [1]> <hidden from users>",
-            "May choose [1] additional belief(s) of any type when [founding] a religion"
+            "Free Social Policy <upon entering a new era> <after turn number [1]> <hidden from users>"
         ],
         "cities": [
             "Madrid",
