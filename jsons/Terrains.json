@@ -21,8 +21,8 @@
   {
 
     "name": "Lakes",
-    "type": "NaturalWonder",
-    "food": 2,
+    "type": "TerrainFeature",
+    "food": 3,
     "gold": 1,
     "RGB": [0, 171,169],
     "occursOn": ["Lakes"],
