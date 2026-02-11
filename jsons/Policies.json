@@ -308,6 +308,7 @@
                 "uniques": [
                     "[+33]% [Science] from every [Grand Temple]",
 					"May choose [1] additional belief(s) of any type when [founding] a religion",
+					"May choose [1] additional [Enhancer] beliefs when [founding] a religion"
                 ],
                 "requires": ["Organized Religion"],
                 "row": 2,
@@ -317,9 +318,8 @@
                 "name": "Reformation",
                 "uniques": [
 		                "[-15]% Culture cost of adopting new Policies",
-					    "[-10]% Culture cost of natural border growth [in all cities]",
-					    "May choose [1] additional [Enhancer] beliefs when [founding] a religion",
-                        ],
+					    "[-10]% Culture cost of natural border growth [in all cities]"
+				],
                 "requires": ["Free Religion"],
                 "row": 3,
                 "column": 4
